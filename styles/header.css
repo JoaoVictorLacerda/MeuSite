@@ -1,0 +1,56 @@
+header{
+    width: 100%;
+    background: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.imagem{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    background-image: url(../img/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    }
+.logo{
+    display: flex;
+    align-items: center;
+}
+.texto{
+    margin-left: 20px;
+    font-size: max( 25px,2.3vw);
+    margin-top: 5px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-shadow: -5px -2px 3px black;
+    
+}
+.menu li{
+    margin: 0 10px;
+    margin-left: 0px;
+    
+}
+.arredondar{
+    border-radius: 25px;
+}
+.menu li a {
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color:rgb(255, 255, 255);
+
+}
+.menu li a:hover{
+    color: rgb(0, 0, 0);
+    transition: .4s;
+}
+.separador{
+    color: rgb(240, 240, 240);
+}

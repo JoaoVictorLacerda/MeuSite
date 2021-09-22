@@ -1,0 +1,22 @@
+
+footer{
+    height: 92px;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape h3{
+    color: #d3d4f1;
+    text-shadow: -5px -2px 3px black;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.redesSociais{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 33px;
+    height: 33px;
+    margin-bottom: 10px;
+}

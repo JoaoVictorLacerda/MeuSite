@@ -1,0 +1,12 @@
+
+@media(max-width: 873px){
+    .conteudoS2 ul li{
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 461px){
+    .conteudoS2 ul li{
+        margin-left: 0px;
+    }
+}

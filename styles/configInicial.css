@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background: radial-gradient( circle,#131313, #302f2f 100%);
+
+}

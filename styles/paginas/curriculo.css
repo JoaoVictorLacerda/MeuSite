@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+.secao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animacaoApresentacao 1s forwards;
+    opacity: 0;
+}
+
+@keyframes animacaoApresentacao{
+    0%{
+       opacity: 0;
+    }100%{
+        opacity: 1;
+        
+    }
+}
+
+.divImg{
+    width: 100%;
+    padding-top: 20px;
+ 
+}
+.divImg img{
+    width: max(120px,20%);
+    height: 100%;
+    border-radius: 1000px;
+}
+
+.sobreMim{
+    display: inline-block;
+    text-align: center;
+}
+.sobreMim h1{
+    font-size: max(19px,2vw);
+    font-family: 'Nunito', sans-serif;
+}
+.sobreMim p{
+    font-family: 'Nunito', sans-serif;
+    font-size: max(18px,1.6vw);
+    margin-top: 40px;
+    padding: 5px;
+    
+}
+
+.conteudoS1{
+    width: 70%;
+    text-align: center;
+    margin: 50px;
+    background: radial-gradient( circle,hsl(0, 0%, 87%), #919090 100%);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px  rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+.conteudoS2{
+    padding-top: 10px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.conteudoS2 h1{
+    font-size: max(19px,2vw);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.conteudoS2 ul li{
+    
+    list-style-type: none;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: max(18px,1.6vw);
+    margin:10px;
+    margin-top: 38px;
+    margin-left: max(20px,7vw)
+
+}
+#info{
+    text-align: left;
+
+}
+
+#Linguagens{
+    width: max(70px,5%);
+    height: 100%;
+
+}
+#Banco-de-dados{
+    width: max(80px,9%);
+    height: 100%;
+}
+#javaScript img{
+    margin-left: 10px;
+
+}
+#Django{
+    width: max(80px,12%);
+    height: 100%;
+}
+#node{
+    width: max(80px,11%);
+    height: 100%;
+}
+#Flutter{
+    width: max(100px,18%);
+    height: 100%;
+}
+
+#devWeb{
+    width: max(90px,16%);
+    height: 100%;
+}
+
+.conteudoS3 ul li{
+    text-align: center;
+    margin-left: 0px;
+}
+.conteudoS3 ul{
+    padding-right: 17px;
+}
+.conteudoS3 h3{
+    font-size: max(14px, 1.4vw);
+}
