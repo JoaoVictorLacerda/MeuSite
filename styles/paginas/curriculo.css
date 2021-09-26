@@ -42,6 +42,12 @@
     padding: 5px;
     
 }
+.sobreMim a{
+    font-family: 'Nunito', sans-serif;
+    font-size: max(18px,1.3vw);
+    color: rgb(0, 26, 255);
+
+}
 
 .conteudoS1{
     width: 70%;
