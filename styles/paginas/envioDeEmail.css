@@ -1,0 +1,41 @@
+
+.contact-me{
+    padding: 5px;
+}
+.contact-me div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.contact-me div input{
+    width: 60vw;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 19px;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+
+
+}
+
+.contact-me div textarea{
+    width: 60vw;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Cairo', sans-serif;
+    
+}
+.contact-me div textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.contact-me div button{
+    width: 40vw;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #99ff66;
+}
