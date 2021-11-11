@@ -1,12 +1,9 @@
 class PrimeiraRequest{
     constructor(){
-        fetch("https://api-my-site.herokuapp.com/",
-        {
-            method:"GET"
-        
-        }).then(response=>{
-            console.log("Aberto")
-        })
+
+        const primeiraRequest = new XMLHttpRequest()
+        primeiraRequest.open("GET", "https://api-my-site.herokuapp.com/", false);
+        primeiraRequest.send()
     }
 }
 
