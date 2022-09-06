@@ -14,8 +14,8 @@ class Requisicao{
             return response.json()
         
         });
-        const sobreMim = data[0];
-        const linhaDoTempo = data[1]
+        const sobreMim = data[1];
+        const linhaDoTempo = data[0]
 
         this.addSobreMim(sobreMim)
         this.addLinhaDoTempo(linhaDoTempo)
